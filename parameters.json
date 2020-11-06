@@ -1,0 +1,13 @@
+{
+  "Version": "1.0",
+  "Parameters": {
+    "RuleName": "iam_no_user",
+    "Description": "iam_no_user",
+    "SourceRuntime": "python3.7",
+    "CodeKey": "iam_no_user.zip",
+    "InputParameters": "{}",
+    "OptionalParameters": "{\"WhitelistedUserList\": \"\"}",
+    "SourceEvents": "AWS::IAM::User"
+  },
+  "Tags": "[]"
+}
